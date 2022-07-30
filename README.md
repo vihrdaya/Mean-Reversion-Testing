@@ -2,13 +2,13 @@
 
 ### Introduction
 Mean reversion testing tries to determine whether a time series eventually averages to a value over the life of the time series.
+I needed functions that will average the percent change across the entire time series of the data. I then needed to find a coefficient of correlation, almost a regression on one time series data to another. I chose to make my data span a range between Jan 1, 2017 and May 5, 2017. It was an arbitrary choice to limit the amount of data for my computer to process.
 
-I needed functions that wil average the percent change across the entire time series of the data. I then needed to find a coeffienct of correlation, almost a regression on one time series data to another. I chose to make my data span a range between Jan 1, 2017 and May 5, 2017. It was an arbirary choice to limit the amount of data for my computer to process.
+This of course has its flaws.
 
-This ofcourse has its flaws.
+I lose out on having a proper length of time series data to normalize over.
+If there are seasonal trends. For example for a winter clothing supply company whose sales would spike during the winter months.
 
-1. I lose out on having a proper length of time series data to normalize over.
-2. If there are seasonaly trends. For example for winter clothing suppy company who's sales would spike during the winter months.
 
 ### Result
 
